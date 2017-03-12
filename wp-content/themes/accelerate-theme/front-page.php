@@ -14,15 +14,17 @@
 
 get_header(); ?>
 
-<section class="home-page">
-	<div class="site-content">
-		<?php while ( have_posts() ) : the_post(); ?>
-			<div class='homepage-hero'>
-				<?php the_content(); ?>
-				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
-			</div>
-		<?php endwhile; // end of the loop. ?>
-	</div><!-- .container -->
-</section><!-- .home-page -->
+    <section class="home-page">
+        <div class="site-content">
+            <?php while ( have_posts() ) : the_post(); ?>
+            <div class='homepage-hero'>
+                <?php the_content(); ?>
+                <a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
+            </div>
+            <?php endwhile; // end of the loop. ?>
+        </div>
+        <!-- .container -->
+    </section>
+    <!-- .home-page -->
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>

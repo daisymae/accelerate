@@ -1,0 +1,215 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Cheryl Orcutt
+ Author URI:   http://example.com
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+
+@import url("../accelerate-theme/style.css");
+
+/* Homepage Styles */
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+}
+
+
+/* navigation header */
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+
+/* put the menu items in a horizontal row */
+
+.site-navigation ul li {
+    display: inline-block;
+    margin-right: 1.78571em;
+    position: relative;
+    vertical-align: middle;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+    width: 50%;
+}
+
+.blog-post h4 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
+}
+
+.blog-post h2 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.blog-post .read-more-link {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+
+/* Case Studies */
+
+article.case-study {
+    margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 314px;
+    margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+    float: left;
+    width: 514px;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+
+/* Feature Work Homepage */
+
+.featured-title {
+    text-align: center;
+}
+
+ul.homepage-featured-work {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/* another way to do it -- be sure to add the class to the 'li' element
+.individual-featured-work {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    list-style: none;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+*/
+
+ul.homepage-featured-work li {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+ul.homepage-featured-work li h5 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+ul.homepage-featured-work img {
+    margin: 10px 20px 0px 10px;
+}
+
+.work-item {
+    width: 1125px;
+}
+
+
+/* Case Study Archive */
+
+.case-study-services-archive {
+    color: lightgrey;
+}
+
+
+/* form */
+
+.submit-right {
+    float: right;
+}
+
+.ninja-forms-field {
+    padding: 7px;
+}
+
+.nf-field-label label {
+    font-weight: 400 !important;
+    font-size: smaller;
+}
+
+#nf-field-1 {
+    padding: 10px;
+}
+
+#nf-field-2 {
+    padding: 10px;
+}
+
+#nf-field-4 {
+    padding: 20px 80px;
+    margin: auto;
+}
+
+#contact-content {
+    margin: 150px;
+    color: black;
+}
+
+.page {
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+
+
+/* About */
+
+.about-main {
+    background: url(img/taxi-photo.jpg) no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    color: white;
+    height: 120px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.about-content {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 198px;
+    margin-bottom: 80px;
+    width: 600px;
+}
+
+.about-key {
+    color: #45ac9d;
+}
+
+.about-itemized {
+    color: black;
+    text-align: center;
+}
+
+.about-left-sidebar {
+    width: 484px;
+    float: left;
+    margin-left: 145px;
+    clear: both;
+}
+
+.about-right-side {
+    float: left;
+    width: 484px;
+    margin-left: 100px;
+}
