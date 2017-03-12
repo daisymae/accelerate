@@ -128,6 +128,17 @@ ul.homepage-featured-work img {
 }
 
 
+/* footer media icons */
+
+.social-media-navigation ul {
+    list-style-type: none;
+}
+
+.social-media-navigation ul li {
+    display: inline-block;
+}
+
+
 /* Case Study Archive */
 
 .case-study-services-archive {
@@ -154,11 +165,27 @@ ul.homepage-featured-work img {
     padding: 10px;
 }
 
+#nf-field-9 {
+    padding: 10px;
+}
+
 #nf-field-2 {
     padding: 10px;
 }
 
+#nf-field-10 {
+    padding: 10px;
+}
+
 #nf-field-4 {
+    padding: 20px 80px;
+    margin: auto;
+}
+
+
+/* id changed on published site */
+
+#nf-field-12 {
     padding: 20px 80px;
     margin: auto;
 }
@@ -187,8 +214,8 @@ ul.homepage-featured-work img {
 .about-content {
     text-align: center;
     font-size: 24px;
-    margin-left: 198px;
-    margin-bottom: 80px;
+    margin: auto;
+    /* aligns to the center all around */
     width: 600px;
 }
 
@@ -196,15 +223,20 @@ ul.homepage-featured-work img {
     color: #45ac9d;
 }
 
+.itemized-header {
+    margin-top: 80px;
+}
+
 .about-itemized {
     color: black;
     text-align: center;
+    width: 1000px;
+    margin: auto;
 }
 
 .about-left-sidebar {
-    width: 484px;
+    width: 400px;
     float: left;
-    margin-left: 145px;
     clear: both;
 }
 
