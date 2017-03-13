@@ -245,3 +245,20 @@ ul.homepage-featured-work img {
     width: 484px;
     margin-left: 100px;
 }
+
+
+/* 404 */
+
+.page-title {
+    color: #45ac9d;
+}
+
+.page-content {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    /*background: url("img/snowmonster.jpeg") no-repeat scroll left center;*/
+}
+
+.oops-link {
+    color: #45ac9d !important;
+}

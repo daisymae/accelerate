@@ -42,7 +42,7 @@ get_header(); ?>
         <article class="about-itemized">
             <aside class="about-left-sidebar">
                 <img src="<?php echo $section_1_image; ?>" class="about-left-image" />
-                <?php /*
+                <?php /* this isn't working -- fix it later
                         if($section_1_image) { 
                             echo wp_get_attachment_image($section_1_image, $size);
                         }
