@@ -40,29 +40,71 @@
 }
 
 .blog-post {
+    float: left;
     width: 50%;
 }
 
-.blog-post h4 {
+.blog-post h4,
+.twitter-feed .widget-area .widget-title {
     font-size: 16px;
     font-family: 'Montserrat';
     color: #a6a6a6;
     text-transform: uppercase;
 }
 
-.blog-post h2 {
+.blog-post h2,
+.twitter-feed .twitterhandle {
     font-size: 24px;
     font-family: 'Montserrat';
     font-weight: bold;
 }
 
-.blog-post .read-more-link {
+.blog-post .read-more-link,
+.twitter-feed .follow-us-link {
     font-size: 24px;
     font-family: 'Montserrat';
     font-weight: bold;
     color: #45ac9d;
     text-transform: uppercase;
 }
+
+
+/* twitter feed */
+
+.twitter-feed {
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+}
+
+.twitter-feed h3 {
+    line-height: 2.2;
+}
+
+.twitter-feed ul {
+    list-style-type: none;
+}
+
+
+/*.twitter-feed .follow-us-link {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+    margin-left: 38px;
+}*/
+
+.twitter-feed .follow-us-link {
+    padding-left: 40px;
+}
+
+
+/*.twitter-feed .twitterhandle{
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}*/
 
 
 /* Case Studies */
