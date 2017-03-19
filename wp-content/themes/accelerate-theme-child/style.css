@@ -45,7 +45,7 @@
 }
 
 .blog-post h4,
-.twitter-feed .widget-area .widget-title {
+.PI_SimpleTwitterTweets h3 a {
     font-size: 16px;
     font-family: 'Montserrat';
     color: #a6a6a6;
@@ -57,6 +57,7 @@
     font-size: 24px;
     font-family: 'Montserrat';
     font-weight: bold;
+    color: #333;
 }
 
 .blog-post .read-more-link,
