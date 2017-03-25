@@ -69,4 +69,4 @@ function add_twitter_handle( $title ) {
 			}
     	return $title .= '<div class="twitterhandle">@'. $twitter_handle . '</div>';
 		}
-add_filter('PI_SimpleTwitterTweets', 'add_twitter_handle');
+add_filter('widget_title', 'add_twitter_handle');
